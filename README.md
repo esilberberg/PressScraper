@@ -2,7 +2,7 @@
 
 ABOUT:
 
-PressScraper v2 crawls through the pages of Press Releases published on the ACLU website and downloads each as a PDF. PDFs are downloaded to the folder "Press_Releases_YYYY" which is created when the program starts. These PDFs are named according to ACLU Archives and Records department convetion of "YYYY_MM title of release.pdf." After completing the downloads, the app organizes the PDFs into folders by month, creates a manifest (CSV file) containing key metadata, and an error log (CSV file).
+PressScraper v3.0 crawls through the pages of Press Releases published on the ACLU website and downloads each as a PDF. PDFs are downloaded to the folder "Press_Releases_YYYY" which is created when the program starts. These PDFs are named according to ACLU Archives and Records department convetion of "YYYY_MM title of release.pdf." After completing the downloads, the app organizes the PDFs into folders by month, creates a manifest (CSV file) containing key metadata, and an error log (CSV file).
 
 ----------------------------------------------------
 
