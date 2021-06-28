@@ -20,7 +20,7 @@ USAGE NOTES:
 
 On running, the script will prompt for year, start page, and end page. Remember, if you select pages 1-21, the program will download all documents on page 20 and stop once it reaches page 21, thus nothing on page 21 will download.
 
-It is advisable to download in 30 page batches in case of internet connection or computer memory issues. This way if there is a problem, you won't loose the organization, manifest, and error log which are produced at the end of the program.
+It is advisable to download in 30 page batches. This way if there is an issue, you won't loose the organization, manifest, and error log which are produced at the end of the program.
 
 ----------------------------------------------------
 
