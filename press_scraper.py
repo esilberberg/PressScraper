@@ -151,16 +151,7 @@ for x in range(int(start_pg), int(end_pg)):
 
             original_title = header.replace(' [1]', '')
 
-            if '\"' in original_title:
-                export_title = re.sub('\"', '', original_title)
-                if '\'' in export_title:
-                    export_title = re.sub('\'', '', export_title)
-            elif '\'' in original_title:
-                export_title = re.sub('\'', '', original_title)
-            elif '\\?' in original_title:
-                export_title = re.sub('\\?', '', original_title)
-            else:
-                export_title = original_title
+            export_title = re.sub('[^a-zA-Z0-9 \n\.]', '', original_title)
 
             pdf_title = f"{MakeDate(field_date)} {export_title}.pdf"
 
