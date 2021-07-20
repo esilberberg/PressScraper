@@ -27,5 +27,3 @@ It is advisable to download in 30 page batches. This way if there is an issue, y
 ERROR LOG:
 
 NoSuchElement, This means that the chromedriver could not find the press release link on the website. User should search for this article on the ACLU website and manually download and catalog.
-
-NotLoggedToOutputManifest, Sometimes wkhtmltopdf did create a PDF and failed to register the download on the output_manifest. Sometimes the entire print to PDF process failed. Either way, users should verify that the PDF did download and see if it was logged to the output_manifest. Users will need to download and catalog or simply catalog these articles.
